@@ -19,7 +19,7 @@ Ex: Carteira número 10 a chave está em 2<sup>9</sup> e 2<sup>10</sup>- 1, cart
 - API de preços do Bitcoin: https://api.coincap.io/v2/assets/bitcoin
 - ...
 
-### Nota aos envolvido - btcpuzzle.info
+# Nota aos envolvido - btcpuzzle.info
 Realizei Web Scraping da sua página https://btcpuzzle.info/puzzlelist para obter os dados das carteiras de forma mais atualizada que manter um arquivo fixo e mais barata que assinar uma API de consultas a carteiras de BTC, não encontrei em seu site um comunicado que proibia o Web Scraping, mas caso quera que o eu remova o seu site como base de dados, basta entrar em contato comigo que farei sem exitar. Caso tenha conhecimento do que estou fazendo e queira permitir que eu continue, saiba que este app não tem fins comerciais, é apenas um projeto para agregar em meu portifólio de programador.
 
 Atenciosamente, Alan Marinho.
