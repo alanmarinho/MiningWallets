@@ -16,6 +16,8 @@ Ex: Carteira número 10 a chave está em 2<sup>9</sup> e 2<sup>10</sup>- 1, cart
 ## Abordagem
 ### Coleta de dados das carteiras na web
 - Web Scraping: https://btcpuzzle.info/puzzlelist
+- ...
+### Monitoramento do valor do BTC
 - API de preços do Bitcoin: https://api.coincap.io/v2/assets/bitcoin
 - ...
 
