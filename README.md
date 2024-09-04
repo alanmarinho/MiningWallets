@@ -1,4 +1,4 @@
-#Projeto Mining Wallets
+# Projeto Mining Wallets
 
 O projeto Mining Wallets consiste em um app simples desenvolvimento em React Native que tem como objetivo participar do desafio Puzzle Wallets de BTC
 
