@@ -1,5 +1,6 @@
 import { View, Text, ScrollView, Pressable } from 'react-native';
 import Colors from '@/constants/Colors';
+import { useNavigation } from '@react-navigation/native';
 interface ListingProps {
   id: string;
   address: string;
@@ -9,6 +10,7 @@ interface ListingProps {
 }
 
 export default function listing(dataProps: ListingProps[], btcValue: number) {
+  const navigation = useNavigation();
   return (
     <ScrollView style={{}}>
       {dataProps.map((item, index) => (
@@ -44,6 +46,7 @@ export default function listing(dataProps: ListingProps[], btcValue: number) {
                 alignItems: 'center',
                 marginTop: 10,
               }}
+              onPress={() => navigation.navigate('modal', { item: item })}
             >
               <Text style={{ color: Colors.light.text }}>Detalhes</Text>
             </Pressable>

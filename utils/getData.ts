@@ -43,6 +43,7 @@ async function getData() {
         negativeBalance: negativeBalance,
       });
     });
+    console.log('Dados obtidos da btcpuzzle.info');
     return dados;
   } catch (error) {
     console.error('Erro ao obter dados:', error);
